@@ -20,3 +20,6 @@ for i in range(5001):sada
         print (i, session.run(cost, feed_dict={X: dataX, Y: dataY}), session.run(weight), session.run(bias))
 
 print(session.run(hypothesis, feed_dict={X: [10]}))
+
+
+# mnist = tf.keras.datasets.mnist
