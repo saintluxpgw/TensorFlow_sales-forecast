@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
- 
+
 # 랜덤에 의해 똑같은 결과를 재현하도록 시드 설정
 # 하이퍼파라미터를 튜닝하기 위한 용도(흔들리면 무엇때문에 좋아졌는지 알기 어려움)
 tf.set_random_seed(777)
