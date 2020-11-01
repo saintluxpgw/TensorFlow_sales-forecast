@@ -1,5 +1,4 @@
 import tensorflow as tf
-
 dataX = [5, 6, 7, 8, 9, 10, 11, 12]
 dataY = [138748310, 293083260, 599818677, 806742572, 988609172, 1220109100]
 weight = tf.Variable(tf.random.uniform([1], -100, 100))
@@ -21,6 +20,3 @@ for i in range(5001):sada
         print (i, session.run(cost, feed_dict={X: dataX, Y: dataY}), session.run(weight), session.run(bias))
 
 print(session.run(hypothesis, feed_dict={X: [10]}))
-
-
-# mnist = tf.keras.datasets.mnist
