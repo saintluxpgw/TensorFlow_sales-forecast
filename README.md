@@ -1,2 +1,1 @@
-# tf_sales-forecast
-# kodak-sales-forecast
+#Test for Kodak Photographer Sales Analysis
